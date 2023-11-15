@@ -18,8 +18,13 @@ public class Main {
         System.out.println(cd02);
         System.out.println(cd03);
 
-        
-
+        Box box = new Box(10);
+        box.add(book01);
+        box.add(book02);
+        box.add(book03);
+        box.add(cd01);
+        box.add(cd02);
+        box.add(cd03);
+        System.out.println(box);
     }
-
 }
