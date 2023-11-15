@@ -2,7 +2,13 @@
 public class Main {
 
     public static void main(String[] args) {
-        // you can test how your classes work here
+
+        Dog dog01 = new Dog();
+        dog01.bark();
+        dog01.eat();
+        dog01.sleep();
+
+
 
     }
 

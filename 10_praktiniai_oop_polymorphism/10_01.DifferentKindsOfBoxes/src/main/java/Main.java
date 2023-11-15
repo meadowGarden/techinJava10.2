@@ -1,4 +1,4 @@
-
+import java.awt.*;
 
 public class Main {
 
@@ -23,5 +23,12 @@ public class Main {
         System.out.println(oneItemBox.isInBox(new Item("Pirkka")));
 
         System.out.println("-------");
+
+        MisplacingBox misplacingBox = new MisplacingBox();
+
+
+
+
+
     }
 }
